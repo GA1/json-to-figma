@@ -1,0 +1,20 @@
+{
+  "name": "json-to-figma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GA1/json-to-figma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GA1/json-to-figma/issues"
+  },
+  "homepage": "https://github.com/GA1/json-to-figma#readme"
+}
