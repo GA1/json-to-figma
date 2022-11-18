@@ -13,6 +13,7 @@
     "@types/uzip": "^0.20201231.0",
     "@typescript-eslint/eslint-plugin": "^5.12.0",
     "@typescript-eslint/parser": "^5.12.0",
+    "copyfiles": "^2.4.1",
     "cross-env": "^7.0.3",
     "eslint": "8.22.0",
     "eslint-plugin-import": "^2.25.4",
@@ -20,7 +21,8 @@
     "typescript": "^4.8.2"
   },
   "scripts": {
-    "dev": "rimraf lib && npx tsc --project tsconfig.json && cross-env NODE_ENV=development node lib/figma-to-json-index.js"
+    "build": "rimraf lib && npx tsc --project tsconfig.json && mkdir -p ./lib/assets/figma/ && cp -r ./src/assets/figma/schema.fig ./lib/assets/figma/schema.fig",
+    "start": "cd lib && node figma-to-json-index.js"
   },
   "repository": {
     "type": "git",
