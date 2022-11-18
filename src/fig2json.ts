@@ -1,4 +1,7 @@
 import { ByteBuffer, compileSchema, decodeBinarySchema, parseSchema } from "kiwi-schema"
+import fs from 'fs'
+
+
 import * as UZIP from "uzip"
 
 const transfer8to32 = function (fileByte: Uint8Array, start: number, cache: Uint8Array) {
@@ -53,8 +56,10 @@ function convertBase64ToBlobs(json: any): object {
 }
 
 export const jsonToFig = async (json: any): Promise<Uint8Array> => {
-  const res = await fetch("/assets/figma/schema.fig")
-  const fileBuffer = await res.arrayBuffer()
+  // const res = await fetch("/assets/figma/schema.fig")
+  // const res = fs.readFile("/assets/figma/schema.fig")
+  const fileBuffer = fs.readFileSync("../assets/figma/schema.fig").buffer
+  // const fileBuffer = await res.arrayBuffer()
 
   const [schemaByte, _] = figToBinaryParts(fileBuffer)
 

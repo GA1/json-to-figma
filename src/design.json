@@ -1,0 +1,668 @@
+{
+  "type": "NODE_CHANGES",
+  "sessionID": 0,
+  "ackID": 0,
+  "nodeChanges": [
+    {
+      "guid": {
+        "sessionID": 0,
+        "localID": 0
+      },
+      "phase": "CREATED",
+      "type": "DOCUMENT",
+      "name": "Document",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "PASS_THROUGH",
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "mask": false,
+      "maskIsOutline": false,
+      "maskType": "ALPHA"
+    },
+    {
+      "guid": {
+        "sessionID": 0,
+        "localID": 1
+      },
+      "phase": "CREATED",
+      "parentIndex": {
+        "guid": {
+          "sessionID": 0,
+          "localID": 0
+        },
+        "position": "!"
+      },
+      "type": "CANVAS",
+      "name": "Page 1",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "PASS_THROUGH",
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "mask": false,
+      "maskIsOutline": false,
+      "maskType": "ALPHA",
+      "backgroundOpacity": 1,
+      "backgroundColor": {
+        "r": 0.11764705926179886,
+        "g": 0.11764705926179886,
+        "b": 0.11764705926179886,
+        "a": 1
+      },
+      "backgroundEnabled": true
+    },
+    {
+      "guid": {
+        "sessionID": 0,
+        "localID": 2
+      },
+      "phase": "CREATED",
+      "parentIndex": {
+        "guid": {
+          "sessionID": 0,
+          "localID": 0
+        },
+        "position": "~"
+      },
+      "type": "CANVAS",
+      "name": "Internal Only Canvas",
+      "visible": false,
+      "opacity": 1,
+      "blendMode": "PASS_THROUGH",
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "mask": false,
+      "maskIsOutline": false,
+      "maskType": "ALPHA",
+      "internalOnly": true
+    },
+    {
+      "guid": {
+        "sessionID": 6,
+        "localID": 2
+      },
+      "phase": "CREATED",
+      "parentIndex": {
+        "guid": {
+          "sessionID": 0,
+          "localID": 1
+        },
+        "position": "!"
+      },
+      "type": "FRAME",
+      "name": "#ShortComponent",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "PASS_THROUGH",
+      "size": {
+        "x": 280,
+        "y": 226
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": -143,
+        "m10": 0,
+        "m11": 1,
+        "m12": -116
+      },
+      "dashPattern": [],
+      "mask": false,
+      "maskType": "ALPHA",
+      "cornerRadius": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "strokeCap": "NONE",
+      "strokeJoin": "MITER",
+      "fillPaints": [],
+      "strokePaints": [],
+      "fillGeometry": [],
+      "strokeGeometry": [],
+      "horizontalConstraint": "MIN",
+      "miterLimit": 4,
+      "verticalConstraint": "MIN",
+      "frameMaskDisabled": false,
+      "resizeToFit": true,
+      "exportBackgroundDisabled": false,
+      "cornerSmoothing": 0,
+      "containerSupportsFillStrokeAndCorners": true
+    },
+    {
+      "guid": {
+        "sessionID": 6,
+        "localID": 3
+      },
+      "phase": "CREATED",
+      "parentIndex": {
+        "guid": {
+          "sessionID": 6,
+          "localID": 2
+        },
+        "position": "!"
+      },
+      "type": "ROUNDED_RECTANGLE",
+      "name": "Rectangle 12",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "PASS_THROUGH",
+      "size": {
+        "x": 280,
+        "y": 226
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "dashPattern": [],
+      "mask": false,
+      "maskType": "ALPHA",
+      "cornerRadius": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "strokeCap": "NONE",
+      "strokeJoin": "MITER",
+      "fillPaints": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.10980392247438431,
+            "g": 0.10980392247438431,
+            "b": 0.10980392247438431,
+            "a": 1
+          },
+          "opacity": 1,
+          "visible": true,
+          "blendMode": "NORMAL"
+        }
+      ],
+      "strokePaints": [],
+      "fillGeometry": [
+        {
+          "windingRule": "NONZERO",
+          "commandsBlob": 0,
+          "styleID": 0
+        }
+      ],
+      "strokeGeometry": [],
+      "rectangleTopLeftCornerRadius": 0,
+      "rectangleTopRightCornerRadius": 0,
+      "rectangleBottomLeftCornerRadius": 0,
+      "rectangleBottomRightCornerRadius": 0,
+      "rectangleCornerRadiiIndependent": false,
+      "rectangleCornerToolIndependent": false,
+      "proportionsConstrained": false,
+      "horizontalConstraint": "MIN",
+      "miterLimit": 4,
+      "verticalConstraint": "MIN",
+      "handleMirroring": "NONE",
+      "exportSettings": [
+        {
+          "suffix": "",
+          "imageType": "PNG",
+          "constraint": {
+            "type": "CONTENT_SCALE",
+            "value": 1
+          },
+          "contentsOnly": true,
+          "useAbsoluteBounds": false
+        }
+      ],
+      "cornerSmoothing": 0
+    },
+    {
+      "guid": {
+        "sessionID": 6,
+        "localID": 4
+      },
+      "phase": "CREATED",
+      "parentIndex": {
+        "guid": {
+          "sessionID": 6,
+          "localID": 2
+        },
+        "position": "#"
+      },
+      "type": "ROUNDED_RECTANGLE",
+      "name": "Rectangle 39",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "PASS_THROUGH",
+      "size": {
+        "x": 171,
+        "y": 25
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 19,
+        "m10": 0,
+        "m11": 1,
+        "m12": 20
+      },
+      "dashPattern": [],
+      "mask": false,
+      "maskType": "ALPHA",
+      "cornerRadius": 12,
+      "strokeWeight": 0.901123583316803,
+      "strokeAlign": "INSIDE",
+      "strokeCap": "NONE",
+      "strokeJoin": "MITER",
+      "fillPaints": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.22083333134651184,
+            "g": 0.22083333134651184,
+            "b": 0.22083333134651184,
+            "a": 1
+          },
+          "opacity": 1,
+          "visible": true,
+          "blendMode": "NORMAL"
+        }
+      ],
+      "strokePaints": [],
+      "fillGeometry": [
+        {
+          "windingRule": "NONZERO",
+          "commandsBlob": 1,
+          "styleID": 0
+        }
+      ],
+      "strokeGeometry": [],
+      "rectangleTopLeftCornerRadius": 12,
+      "rectangleTopRightCornerRadius": 12,
+      "rectangleBottomLeftCornerRadius": 12,
+      "rectangleBottomRightCornerRadius": 12,
+      "rectangleCornerRadiiIndependent": false,
+      "rectangleCornerToolIndependent": false,
+      "proportionsConstrained": false,
+      "horizontalConstraint": "MIN",
+      "miterLimit": 4,
+      "verticalConstraint": "MIN",
+      "handleMirroring": "NONE",
+      "cornerSmoothing": 0
+    },
+    {
+      "guid": {
+        "sessionID": 6,
+        "localID": 7
+      },
+      "phase": "CREATED",
+      "parentIndex": {
+        "guid": {
+          "sessionID": 6,
+          "localID": 2
+        },
+        "position": "&"
+      },
+      "type": "ROUNDED_RECTANGLE",
+      "name": "Rectangle 42",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "PASS_THROUGH",
+      "size": {
+        "x": 246,
+        "y": 9
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 19,
+        "m10": 0,
+        "m11": 1,
+        "m12": 76
+      },
+      "dashPattern": [],
+      "mask": false,
+      "maskType": "ALPHA",
+      "cornerRadius": 12,
+      "strokeWeight": 0.901123583316803,
+      "strokeAlign": "INSIDE",
+      "strokeCap": "NONE",
+      "strokeJoin": "MITER",
+      "fillPaints": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "opacity": 1,
+          "visible": true,
+          "blendMode": "NORMAL"
+        }
+      ],
+      "strokePaints": [],
+      "fillGeometry": [
+        {
+          "windingRule": "NONZERO",
+          "commandsBlob": 2,
+          "styleID": 0
+        }
+      ],
+      "strokeGeometry": [],
+      "rectangleTopLeftCornerRadius": 12,
+      "rectangleTopRightCornerRadius": 12,
+      "rectangleBottomLeftCornerRadius": 12,
+      "rectangleBottomRightCornerRadius": 12,
+      "rectangleCornerRadiiIndependent": false,
+      "rectangleCornerToolIndependent": false,
+      "proportionsConstrained": false,
+      "horizontalConstraint": "MIN",
+      "miterLimit": 4,
+      "verticalConstraint": "MIN",
+      "handleMirroring": "NONE",
+      "cornerSmoothing": 0
+    },
+    {
+      "guid": {
+        "sessionID": 6,
+        "localID": 8
+      },
+      "phase": "CREATED",
+      "parentIndex": {
+        "guid": {
+          "sessionID": 6,
+          "localID": 2
+        },
+        "position": "'"
+      },
+      "type": "FRAME",
+      "name": "Group 10",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.4000000059604645,
+      "blendMode": "PASS_THROUGH",
+      "size": {
+        "x": 108,
+        "y": 84.97283172607422
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 21,
+        "m10": 0,
+        "m11": 1,
+        "m12": 118
+      },
+      "dashPattern": [],
+      "mask": false,
+      "maskType": "ALPHA",
+      "cornerRadius": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "strokeCap": "NONE",
+      "strokeJoin": "MITER",
+      "fillPaints": [],
+      "strokePaints": [],
+      "fillGeometry": [],
+      "strokeGeometry": [],
+      "horizontalConstraint": "MIN",
+      "miterLimit": 4,
+      "verticalConstraint": "MIN",
+      "frameMaskDisabled": false,
+      "resizeToFit": true,
+      "exportBackgroundDisabled": false,
+      "cornerSmoothing": 0,
+      "containerSupportsFillStrokeAndCorners": true
+    },
+    {
+      "guid": {
+        "sessionID": 6,
+        "localID": 9
+      },
+      "phase": "CREATED",
+      "parentIndex": {
+        "guid": {
+          "sessionID": 6,
+          "localID": 8
+        },
+        "position": "!"
+      },
+      "type": "ROUNDED_RECTANGLE",
+      "name": "Rectangle 18",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "PASS_THROUGH",
+      "size": {
+        "x": 108,
+        "y": 84.97283172607422
+      },
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "dashPattern": [],
+      "mask": false,
+      "maskType": "ALPHA",
+      "cornerRadius": 0,
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "strokeCap": "NONE",
+      "strokeJoin": "MITER",
+      "fillPaints": [],
+      "strokePaints": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.3291666805744171,
+            "g": 0.327795147895813,
+            "b": 0.327795147895813,
+            "a": 1
+          },
+          "opacity": 1,
+          "visible": true,
+          "blendMode": "NORMAL"
+        }
+      ],
+      "fillGeometry": [
+        {
+          "windingRule": "NONZERO",
+          "commandsBlob": 3,
+          "styleID": 0
+        }
+      ],
+      "strokeGeometry": [
+        {
+          "windingRule": "NONZERO",
+          "commandsBlob": 4,
+          "styleID": 0
+        }
+      ],
+      "rectangleTopLeftCornerRadius": 0,
+      "rectangleTopRightCornerRadius": 0,
+      "rectangleBottomLeftCornerRadius": 0,
+      "rectangleBottomRightCornerRadius": 0,
+      "rectangleCornerRadiiIndependent": false,
+      "rectangleCornerToolIndependent": false,
+      "proportionsConstrained": false,
+      "borderTopWeight": 2,
+      "borderBottomWeight": 2,
+      "borderLeftWeight": 2,
+      "borderRightWeight": 2,
+      "horizontalConstraint": "MIN",
+      "miterLimit": 4,
+      "verticalConstraint": "MIN",
+      "handleMirroring": "NONE",
+      "cornerSmoothing": 0
+    },
+    {
+      "guid": {
+        "sessionID": 6,
+        "localID": 10
+      },
+      "phase": "CREATED",
+      "parentIndex": {
+        "guid": {
+          "sessionID": 6,
+          "localID": 8
+        },
+        "position": "\""
+      },
+      "type": "LINE",
+      "name": "Line 1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "PASS_THROUGH",
+      "size": {
+        "x": 135.28977966308594,
+        "y": 0
+      },
+      "transform": {
+        "m00": 0.7853061556816101,
+        "m01": -0.855185329914093,
+        "m02": 0,
+        "m10": 0.6191076636314392,
+        "m11": 0.5183223485946655,
+        "m12": 0.303497314453125
+      },
+      "dashPattern": [],
+      "mask": false,
+      "maskType": "ALPHA",
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "strokeCap": "NONE",
+      "strokeJoin": "MITER",
+      "fillPaints": [],
+      "strokePaints": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.3291666805744171,
+            "g": 0.327795147895813,
+            "b": 0.327795147895813,
+            "a": 1
+          },
+          "opacity": 1,
+          "visible": true,
+          "blendMode": "NORMAL"
+        }
+      ],
+      "fillGeometry": [],
+      "strokeGeometry": [
+        {
+          "windingRule": "NONZERO",
+          "commandsBlob": 5,
+          "styleID": 0
+        }
+      ],
+      "proportionsConstrained": false,
+      "horizontalConstraint": "MIN",
+      "miterLimit": 4,
+      "verticalConstraint": "MIN",
+      "handleMirroring": "NONE"
+    },
+    {
+      "guid": {
+        "sessionID": 6,
+        "localID": 11
+      },
+      "phase": "CREATED",
+      "parentIndex": {
+        "guid": {
+          "sessionID": 6,
+          "localID": 8
+        },
+        "position": "#"
+      },
+      "type": "LINE",
+      "name": "Line 2",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "PASS_THROUGH",
+      "size": {
+        "x": 135.98040771484375,
+        "y": 0
+      },
+      "transform": {
+        "m00": -0.7877748608589172,
+        "m01": -0.853285014629364,
+        "m02": 107.12196350097656,
+        "m10": 0.6159632802009583,
+        "m11": -0.5214447379112244,
+        "m12": 0.303497314453125
+      },
+      "dashPattern": [],
+      "mask": false,
+      "maskType": "ALPHA",
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "strokeCap": "NONE",
+      "strokeJoin": "MITER",
+      "fillPaints": [],
+      "strokePaints": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.3291666805744171,
+            "g": 0.327795147895813,
+            "b": 0.327795147895813,
+            "a": 1
+          },
+          "opacity": 1,
+          "visible": true,
+          "blendMode": "NORMAL"
+        }
+      ],
+      "fillGeometry": [],
+      "strokeGeometry": [
+        {
+          "windingRule": "NONZERO",
+          "commandsBlob": 6,
+          "styleID": 0
+        }
+      ],
+      "proportionsConstrained": false,
+      "horizontalConstraint": "MIN",
+      "miterLimit": 4,
+      "verticalConstraint": "MIN",
+      "handleMirroring": "NONE"
+    }
+  ],
+  "blobs": [
+    "AQAAAAAAAAAAAgAAjEMAAAAAAgAAjEMAAGJDAgAAAAAAAGJDAgAAAAAAAAAAAA==",
+    "AQAAAAABAEBBBAAAAAA17KtANOyrQAAAAAAAAEBBAAAAAAIAAB9DAAAAAASfoCVDAAAAAAAAK0Mz7KtAAAArQwAAQEECAAArQ///T0EEAAArQ/MEnUGeoCVDAADIQQAAH0MAAMhBAvv/P0EAAMhBBCnsq0AAAMhBAAAAAPMEnUEAAAAAAABQQQIAAAAAAQBAQQA=",
+    "AQAAAAAAAJBABAAAAAAn8QBAJvEAQAAAAAAAAJBAAAAAAAIAgHFDAAAAAAQ8/HNDAAAAAAAAdkMn8QBAAAB2QwAAkEACAAB2QwAAkEAEAAB2Q22H30A7/HNDAAAQQQCAcUMAABBBAvf/j0AAABBBBBXxAEAAABBBAAAAAG2H30AAAAAAAACQQAIAAAAAAACQQAA=",
+    "AQAAAAAAAAAAAgAA2EIAAAAAAgAA2EIX8qlCAgAAAAAX8qlCAgAAAAAAAAAAAA==",
+    "AQAAAAAAAAAAAgAAAAAAAADAAgAAAMAAAADAAgAAAMAAAAAAAgAAAAAAAAAAAAEAANhCAAAAAAIAANxCAAAAAAIAANxCAAAAwAIAANhCAAAAwAIAANhCAAAAAAABAADYQhfyqUICAADYQhfyrUICAADcQhfyrUICAADcQhfyqUICAADYQhfyqUIAAQAAAAAX8qlCAgAAAMAX8qlCAgAAAMAX8q1CAgAAAAAX8q1CAgAAAAAX8qlCAAEAAAAAAAAAQAIAANhCAAAAQAIAANhCAAAAwAIAAAAAAAAAwAIAAAAAAAAAQAABAADUQgAAAAACAADUQhfyqUICAADcQhfyqUICAADcQgAAAAACAADUQgAAAAAAAQAA2EIX8qVCAgAAAAAX8qVCAgAAAAAX8q1CAgAA2EIX8q1CAgAA2EIX8qVCAAEAAABAF/KpQgIAAABAAAAAAAIAAADAAAAAAAIAAADAF/KpQgIAAABAF/KpQgA=",
+    "AQAAAAAAAAAAAi9KB0MAAAAAAi9KB0MAAADAAgAAAAAAAADAAgAAAAAAAAAAAA==",
+    "AQAAAAAAAAAAAvz6B0MAAAAAAvz6B0MAAADAAgAAAAAAAADAAgAAAAAAAAAAAA=="
+  ]
+}

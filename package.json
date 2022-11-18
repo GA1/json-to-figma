@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/figma-to-json-index.js",
   "dependencies": {
+    "@types/node-fetch": "^2.6.2",
     "kiwi-schema": "^0.4.7",
     "uzip": "^0.20201231.0"
   },
